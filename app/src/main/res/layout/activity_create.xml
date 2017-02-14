@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_item_crud"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="jazuli.com.realm.belajarSQL.Create">
+
+    <EditText
+        android:id="@+id/id_santri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id santri"
+        android:backgroundTint="@color/colorPrimaryDark"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nama santri"
+        android:id="@+id/nama_santri"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="asal kota"
+        android:id="@+id/asal_kota"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="skill"
+        android:id="@+id/skill"/>
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/colorAccen"
+        android:background="@color/colorPrimaryDark"
+        android:text="SIMPAN"/>
+</LinearLayout>
